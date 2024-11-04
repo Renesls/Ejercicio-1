@@ -33,7 +33,7 @@ namespace WindowsFormsApp2
             {
                 Names[currentIndex] = textBox1.Text;
                 Apellido[currentIndex] = textBox2.Text;
-                fechaNacimiento[currentIndex] = textBox3.Text;
+                fechaNacimiento[currentIndex] = dtpFechaRegistro.Value.ToShortDateString(); 
                 Genero[currentIndex] = textBox4.Text;
                 Departamento[currentIndex] = textBox5.Text;
                 Consulta[currentIndex] = comboBox1.SelectedItem?.ToString();
@@ -43,7 +43,6 @@ namespace WindowsFormsApp2
 
                 textBox1.Clear();
                 textBox2.Clear();
-                textBox3.Clear();
                 textBox4.Clear();
                 textBox5.Clear();
                 comboBox1.SelectedIndex = -1;
@@ -74,7 +73,6 @@ namespace WindowsFormsApp2
         {
             textBox1.Clear();
             textBox2.Clear();
-            textBox3.Clear();
             textBox4.Clear();
             textBox5.Clear();
             comboBox1.SelectedIndex = -1;
