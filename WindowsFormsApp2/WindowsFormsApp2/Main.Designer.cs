@@ -28,23 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myanmar Text", 72F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(70, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(431, 169);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Principal";
             // 
             // panel1
             // 
@@ -78,28 +67,34 @@
             this.panel4.Size = new System.Drawing.Size(540, 19);
             this.panel4.TabIndex = 4;
             // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.BzOL16MEqsKOe0VThjF6FXPBi0uyK16lkTety9Wz;
+            this.panel5.Location = new System.Drawing.Point(48, 132);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(518, 302);
+            this.panel5.TabIndex = 5;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
             this.Name = "Main";
             this.Size = new System.Drawing.Size(590, 538);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
