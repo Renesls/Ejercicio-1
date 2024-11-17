@@ -29,17 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.eventLog1 = new System.Diagnostics.EventLog();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.main1 = new WindowsFormsApp2.Main();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.panel7.SuspendLayout();
@@ -48,10 +47,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.panel1.Controls.Add(this.panel6);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.panel2);
@@ -60,43 +58,19 @@
             this.panel1.Size = new System.Drawing.Size(219, 597);
             this.panel1.TabIndex = 30;
             // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel6.Location = new System.Drawing.Point(27, 137);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(12, 40);
-            this.panel6.TabIndex = 40;
-            // 
             // button5
             // 
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button5.ForeColor = System.Drawing.Color.Transparent;
-            this.button5.Location = new System.Drawing.Point(45, 221);
+            this.button5.Location = new System.Drawing.Point(0, 203);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(117, 40);
+            this.button5.Size = new System.Drawing.Size(241, 40);
             this.button5.TabIndex = 39;
-            this.button5.Text = "👨‍⚕️ Nuevo ";
+            this.button5.Text = "👨‍⚕️ Registrar Perro";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel4.Location = new System.Drawing.Point(27, 316);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(12, 40);
-            this.panel4.TabIndex = 36;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel5.Location = new System.Drawing.Point(27, 221);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(12, 40);
-            this.panel5.TabIndex = 35;
             // 
             // button4
             // 
@@ -104,27 +78,13 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(45, 316);
+            this.button4.Location = new System.Drawing.Point(51, 465);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(104, 40);
             this.button4.TabIndex = 33;
             this.button4.Text = "❌ Salir";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(45, 137);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 40);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "🏡 Main";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel2
             // 
@@ -154,12 +114,52 @@
             this.panel7.Size = new System.Drawing.Size(651, 538);
             this.panel7.TabIndex = 32;
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(11, 264);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 40);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "👨‍⚕️ Lista de Perros";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button3.ForeColor = System.Drawing.Color.Transparent;
+            this.button3.Location = new System.Drawing.Point(63, 139);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(104, 40);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "🏡 Main";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // main1
             // 
             this.main1.Location = new System.Drawing.Point(5, 1);
             this.main1.Name = "main1";
             this.main1.Size = new System.Drawing.Size(646, 538);
             this.main1.TabIndex = 2;
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button2.ForeColor = System.Drawing.Color.Transparent;
+            this.button2.Location = new System.Drawing.Point(11, 334);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(208, 40);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "👨‍⚕️ Mostrar vacunas";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -187,14 +187,13 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel4;
         private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.Panel panel7;
         private Main main1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
 
