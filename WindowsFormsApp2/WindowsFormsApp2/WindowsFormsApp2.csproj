@@ -70,6 +70,12 @@
     <Compile Include="Paciente.Designer.cs">
       <DependentUpon>Paciente.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaEdicion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PantallaEdicion.Designer.cs">
+      <DependentUpon>PantallaEdicion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Paciente.resx">
       <DependentUpon>Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaEdicion.resx">
+      <DependentUpon>PantallaEdicion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

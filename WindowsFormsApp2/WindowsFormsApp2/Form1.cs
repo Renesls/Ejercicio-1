@@ -14,21 +14,12 @@ namespace WindowsFormsApp2
     public partial class Form1 : Form
     {
 
-        String[] Names = new string[100];
-        String[] Apellido = new string[100];
-        String[] fechaNacimiento = new string[100];
-        String[] Genero = new string[100];
-        String[] Departamento = new string[100];
-        String[] Consulta = new string[100];
-        String[] Alergias = new string[100];
-
-        int currentIndex = 0;
-
-
         public Form1()
         {
             InitializeComponent();
+            Listar listarControl = new Listar(panel7);
         }
+
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
@@ -66,8 +57,16 @@ namespace WindowsFormsApp2
         private void button2_Click(object sender, EventArgs e)
         {
 
+            PantallaEdicion PantallaControl = new PantallaEdicion();
+            if (panel7.Contains(PantallaControl) == false)
+            {
+                panel7.Controls.Add(PantallaControl);
+                PantallaControl.Dock = DockStyle.Fill;
+                PantallaControl.BringToFront();
+            }
 
         }
+
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -77,6 +76,7 @@ namespace WindowsFormsApp2
                 pacienteControl.Dock = DockStyle.Fill;
                 pacienteControl.BringToFront();
             }
+
 
         }
 
@@ -99,6 +99,17 @@ namespace WindowsFormsApp2
         private void main1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Listar MainControl = new Listar(panel7);
+            if (panel7.Contains(MainControl) == false)
+            {
+                panel7.Controls.Add(MainControl);
+                MainControl.Dock = DockStyle.Fill;
+                MainControl.BringToFront();
+            }
         }
     }
 
