@@ -1,15 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp2;
-
+using Perros;
 namespace WindowsFormsApp2
 {
     public partial class PantallaEdicion : UserControl
@@ -50,19 +44,6 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        public class Perro
-        {
-            public int ID { get; set; }
-            public string Nombre { get; set; }
-            public string Raza { get; set; }
-            public string Dueño { get; set; }
-            public string Telefono { get; set; }
-            public string Fecha_De_Nacimiento { get; set; }
-            public string Nota { get; set; }
-        }
-
-
-
         public void CargarDatos(WindowsFormsApp2.Listar.Perro perroListar)
         {
             var perroPantallaEdicion = new Perro
@@ -84,6 +65,7 @@ namespace WindowsFormsApp2
             richTextBox1.Text = perroPantallaEdicion.Nota;
 
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             int id = int.Parse(label4.Text.Split(':')[1].Trim()); 
@@ -103,7 +85,6 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Perro no encontrado.");
             }
         }
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -154,6 +135,5 @@ namespace WindowsFormsApp2
                 MessageBox.Show($"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
     }
 }

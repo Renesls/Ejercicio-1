@@ -1,30 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Perros;
 
 namespace WindowsFormsApp2
 {
     public partial class Paciente : UserControl
     {
-        public class Perro
-        {
-            public int Id { get; set; }
-            public string NombrePerro { get; set; }
-            public string Raza { get; set; }
-            public string NombreDueno { get; set; }
-            public string TelefonoDueno { get; set; }
-            public string FechaCumpleanos { get; set; }
-            public string Notas { get; set; }
-        }
-
-
         private List<Perro> perros = new List<Perro>();
         private int siguienteId = 1;
 
@@ -34,11 +18,11 @@ namespace WindowsFormsApp2
             CargarDatosPerros();
             ActualizarLabelId();
         }
+
         private void ActualizarLabelId()
         {
-            label4.Text = $"ID:        {siguienteId}";
+            label4.Text = $"ID: {siguienteId}";
         }
-
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -46,19 +30,19 @@ namespace WindowsFormsApp2
             {
                 Perro nuevoPerro = new Perro
                 {
-                    Id = siguienteId++,
-                    NombrePerro = textBox1.Text.Trim(),
+                    ID = siguienteId++,
+                    Nombre = textBox1.Text.Trim(),
                     Raza = textBox4.Text.Trim(),
-                    NombreDueno = textBox2.Text.Trim(),
-                    TelefonoDueno = textBox5.Text.Trim(),
-                    FechaCumpleanos = dtpFechaRegistro.Value.ToString("dd/MM/yyyy"),
-                    Notas = richTextBox1.Text.Trim()
+                    Dueño = textBox2.Text.Trim(),
+                    Telefono = textBox5.Text.Trim(),
+                    Fecha_De_Nacimiento = dtpFechaRegistro.Value.ToString("dd/MM/yyyy"),
+                    Nota = richTextBox1.Text.Trim()
                 };
 
                 perros.Add(nuevoPerro);
                 GuardarDatosPerros();
                 LimpiarFormulario();
-                ActualizarLabelId(); 
+                ActualizarLabelId();
                 MessageBox.Show("Perro registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -66,7 +50,6 @@ namespace WindowsFormsApp2
                 MessageBox.Show($"Error al registrar el perro: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
         private void LimpiarFormulario()
         {
@@ -76,8 +59,7 @@ namespace WindowsFormsApp2
             textBox5.Clear();
             richTextBox1.Clear();
             dtpFechaRegistro.Value = DateTime.Now;
-            ActualizarLabelId(); 
-
+            ActualizarLabelId();
         }
 
         private void GuardarDatosPerros()
@@ -86,12 +68,10 @@ namespace WindowsFormsApp2
             {
                 using (StreamWriter writer = new StreamWriter("perros.txt", append: true))
                 {
-                    // Solo guarda los nuevos perros
-                    var nuevosPerros = perros.Where(p => p.Id >= siguienteId - 1).ToList();
-
+                    var nuevosPerros = perros.Where(p => p.ID >= siguienteId - 1).ToList();
                     foreach (var perro in nuevosPerros)
                     {
-                        writer.WriteLine($"{perro.Id},{perro.NombrePerro},{perro.Raza},{perro.NombreDueno},{perro.TelefonoDueno},{perro.FechaCumpleanos},{perro.Notas}");
+                        writer.WriteLine($"{perro.ID},{perro.Nombre},{perro.Raza},{perro.Dueño},{perro.Telefono},{perro.Fecha_De_Nacimiento},{perro.Nota}");
                     }
                 }
             }
@@ -100,7 +80,6 @@ namespace WindowsFormsApp2
                 MessageBox.Show($"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
         private void CargarDatosPerros()
         {
@@ -118,13 +97,13 @@ namespace WindowsFormsApp2
                             {
                                 perros.Add(new Perro
                                 {
-                                    Id = int.Parse(parts[0]),
-                                    NombrePerro = parts[1],
+                                    ID = int.Parse(parts[0]),
+                                    Nombre = parts[1],
                                     Raza = parts[2],
-                                    NombreDueno = parts[3],
-                                    TelefonoDueno = parts[4],
-                                    FechaCumpleanos = parts[5],
-                                    Notas = parts[6]
+                                    Dueño = parts[3],
+                                    Telefono = parts[4],
+                                    Fecha_De_Nacimiento = parts[5],
+                                    Nota = parts[6]
                                 });
 
                                 siguienteId = Math.Max(siguienteId, int.Parse(parts[0]) + 1);
@@ -139,6 +118,7 @@ namespace WindowsFormsApp2
             }
         }
     
+
 
     private void label7_Click(object sender, EventArgs e)
         {
