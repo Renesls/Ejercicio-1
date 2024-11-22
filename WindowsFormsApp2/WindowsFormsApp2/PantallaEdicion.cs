@@ -46,6 +46,7 @@ namespace WindowsFormsApp2
 
         public void CargarDatos(WindowsFormsApp2.Listar.Perro perroListar)
         {
+            // Crea un nuevo objeto Perro para la edición.
             var perroPantallaEdicion = new Perro
             {
                 ID = perroListar.ID,
@@ -53,52 +54,72 @@ namespace WindowsFormsApp2
                 Raza = perroListar.Raza,
                 Dueño = perroListar.Dueño,
                 Telefono = perroListar.Telefono,
-                Fecha_De_Nacimiento = perroListar.Fecha_De_Nacimiento,
+                Fecha_De_Nacimiento = perroListar.Fecha,
                 Nota = perroListar.Nota
             };
 
+            // Llena los controles de la interfaz con los datos del perro.
             label4.Text = $"ID:        {perroPantallaEdicion.ID}";
             textBox1.Text = perroPantallaEdicion.Nombre;
             textBox4.Text = perroPantallaEdicion.Raza;
             textBox2.Text = perroPantallaEdicion.Dueño;
             textBox5.Text = perroPantallaEdicion.Telefono;
             richTextBox1.Text = perroPantallaEdicion.Nota;
-
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(label4.Text.Split(':')[1].Trim()); 
+            // Obtiene el ID del perro desde la etiqueta.
+            int id = int.Parse(label4.Text.Split(':')[1].Trim());
 
+            // Carga todos los perros desde el archivo.
             List<Perro> perros = CargarPerrosDesdeArchivo();
 
-            Perro perro = perros.FirstOrDefault(p => p.ID == id);
+            Perro perro = null; // Variable para almacenar el perro que se va a eliminar.
+
+            // Busca el perro con el ID especificado.
+            foreach (var p in perros)
+            {
+                if (p.ID == id)
+                {
+                    perro = p;
+                    break; // Detiene el ciclo una vez que encuentra el perro.
+                }
+            }
 
             if (perro != null)
             {
-                perros.Remove(perro);
-                GuardarPerrosEnArchivo(perros);
-                MessageBox.Show("Perro eliminado con éxito.");
+                perros.Remove(perro); // Elimina el perro de la lista.
+                GuardarPerrosEnArchivo(perros); // Guarda la lista actualizada en el archivo.
+
+                MessageBox.Show("Perro eliminado con éxito."); // Muestra mensaje de éxito.
             }
             else
             {
-                MessageBox.Show("Perro no encontrado.");
+                MessageBox.Show("Perro no encontrado."); // Muestra mensaje si no se encuentra el perro.
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(label4.Text.Split(':')[1].Trim()); 
+            int id = int.Parse(label4.Text.Split(':')[1].Trim());
             string nuevoNombre = textBox1.Text;
             string nuevaRaza = textBox4.Text;
             string nuevoDueño = textBox2.Text;
             string nuevoTelefono = textBox5.Text;
-            string nuevaFechaNacimiento = richTextBox1.Text;
             string nuevaNota = richTextBox1.Text;
 
             List<Perro> perros = CargarPerrosDesdeArchivo();
 
-            Perro perro = perros.FirstOrDefault(p => p.ID == id);
+            Perro perro = null;
+
+            foreach (var p in perros)
+            {
+                if (p.ID == id)
+                {
+                    perro = p;
+                    break;
+                }
+            }
 
             if (perro != null)
             {
@@ -108,7 +129,7 @@ namespace WindowsFormsApp2
                 perro.Telefono = string.IsNullOrWhiteSpace(nuevoTelefono) ? perro.Telefono : nuevoTelefono;
                 perro.Nota = string.IsNullOrWhiteSpace(nuevaNota) ? perro.Nota : nuevaNota;
 
-                GuardarPerrosEnArchivo(perros);
+                GuardarPerrosEnArchivo(perros); 
 
                 MessageBox.Show("Datos del perro actualizados con éxito.");
             }
@@ -118,12 +139,15 @@ namespace WindowsFormsApp2
             }
         }
 
+
         private void GuardarPerrosEnArchivo(List<Perro> perros)
         {
             try
             {
-                using (StreamWriter writer = new StreamWriter("perros.txt", false)) 
+                // Abre el archivo en modo de escritura y sobrescribe su contenido.
+                using (StreamWriter writer = new StreamWriter("perros.txt", false))
                 {
+                    // Escribe cada perro en una línea del archivo.
                     foreach (var perro in perros)
                     {
                         writer.WriteLine($"{perro.ID},{perro.Nombre},{perro.Raza},{perro.Dueño},{perro.Telefono},{perro.Fecha_De_Nacimiento},{perro.Nota}");
@@ -132,6 +156,7 @@ namespace WindowsFormsApp2
             }
             catch (Exception ex)
             {
+                // Muestra un mensaje de error si ocurre algún problema al guardar el archivo.
                 MessageBox.Show($"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

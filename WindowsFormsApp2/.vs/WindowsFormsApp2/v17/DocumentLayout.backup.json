@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\rene sandoval\\documents\\github\\ejercicio-1\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\rene sandoval\\documents\\github\\ejercicio-1\\windowsformsapp2\\windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\perro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\listar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\pantallaedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Listar.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Listar.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Listar.Designer.cs",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Perro.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Perro.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Perro.cs",
@@ -79,25 +79,24 @@
               "RelativeToolTip": "WindowsFormsApp2\\Perro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:50:35.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T02:50:35.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PantallaEdicion.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\PantallaEdicion.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\PantallaEdicion.cs",
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\PantallaEdicion.cs",
               "RelativeToolTip": "WindowsFormsApp2\\PantallaEdicion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T02:25:06.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "PantallaEdicion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\PantallaEdicion.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\PantallaEdicion.cs",
@@ -109,20 +108,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Listar.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Listar.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Listar.cs",
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Listar.cs",
               "RelativeToolTip": "WindowsFormsApp2\\Listar.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwMYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAQwGcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T23:15:50.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Listar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Listar.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Listar.cs",
@@ -134,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Paciente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Paciente.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Paciente.cs",
@@ -145,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Paciente.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Paciente.cs",
@@ -157,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Main.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Main.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Main.cs",
@@ -169,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
@@ -177,12 +176,11 @@
               "RelativeToolTip": "WindowsFormsApp2\\Form1.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAA0wE0AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:15:17.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:15:17.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",

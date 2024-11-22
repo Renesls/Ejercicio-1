@@ -30,7 +30,7 @@ namespace WindowsFormsApp2
             public string Raza { get; set; }
             public string Dueño { get; set; }
             public string Telefono { get; set; }
-            public string Fecha_De_Nacimiento { get; set; }
+            public string Fecha { get; set; }
             public string Nota { get; set; }
         }
         public Listar(Panel panel)
@@ -56,21 +56,16 @@ namespace WindowsFormsApp2
         {
             if (e.RowIndex >= 0)
             {
-                // Obtén el perro seleccionado
                 var perroSeleccionado = perros[e.RowIndex];
 
-                // Crea una nueva instancia de PantallaEdicion
                 PantallaEdicion pantallaControl = new PantallaEdicion();
 
-                // Agrega el control al panel si aún no está agregado
                 if (!panel7.Controls.Contains(pantallaControl))
                 {
                     panel7.Controls.Add(pantallaControl);
                     pantallaControl.Dock = DockStyle.Fill;
                     pantallaControl.BringToFront();
                 }
-
-                // Cargar los datos en los controles de PantallaEdicion
                 pantallaControl.CargarDatos(perroSeleccionado);
             }
         }
@@ -87,26 +82,26 @@ namespace WindowsFormsApp2
 
         private void CargarDatosPerros()
         {
-            if (File.Exists("perros.txt"))
+            if (File.Exists("perros.txt")) // Comprueba si el archivo existe.
             {
                 try
                 {
-                    using (StreamReader reader = new StreamReader("perros.txt"))
+                    using (StreamReader reader = new StreamReader("perros.txt")) // Abre el archivo en modo lectura.
                     {
                         string line;
-                        while ((line = reader.ReadLine()) != null)
+                        while ((line = reader.ReadLine()) != null) // Lee línea por línea.
                         {
-                            var parts = line.Split(',');
+                            var parts = line.Split(','); // Divide la línea en partes usando ",".
                             if (parts.Length == 7)
                             {
-                                perros.Add(new Perro
+                                perros.Add(new Perro // Agrega un nuevo perro a la lista.
                                 {
                                     ID = int.Parse(parts[0]),
                                     Nombre = parts[1],
                                     Raza = parts[2],
                                     Dueño = parts[3],
                                     Telefono = parts[4],
-                                    Fecha_De_Nacimiento = parts[5],
+                                    Fecha = parts[5],
                                     Nota = parts[6]
                                 });
                             }
@@ -120,6 +115,7 @@ namespace WindowsFormsApp2
             }
         }
 
+
         private void ConfigurarComboBox()
         {
 
@@ -128,33 +124,33 @@ namespace WindowsFormsApp2
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            string criterio = comboBox2.SelectedItem.ToString();
-            string textoBusqueda = textBox6.Text.Trim();
+            string criterio = comboBox2.SelectedItem.ToString(); // Obtiene el criterio del ComboBox.
+            string textoBusqueda = textBox6.Text.Trim(); // Obtiene el texto ingresado.
 
-            List<Perro> resultados = new List<Perro>();
+            List<Perro> resultados = new List<Perro>(); // Lista temporal para los resultados.
 
-            if (!string.IsNullOrWhiteSpace(textoBusqueda))
+            if (!string.IsNullOrWhiteSpace(textoBusqueda)) 
             {
-                foreach (var perro in perros)
+                foreach (var perro in perros) // Recorre la lista de perros.
                 {
-                    switch (criterio)
+                    switch (criterio) // Evalúa el criterio de búsqueda.
                     {
                         case "ID":
                             if (int.TryParse(textoBusqueda, out int idBusqueda) && perro.ID == idBusqueda)
                             {
-                                resultados.Add(perro);
+                                resultados.Add(perro); // Agrega perros que coincidan con el ID.
                             }
                             break;
                         case "Nombre":
                             if (perro.Nombre.IndexOf(textoBusqueda, StringComparison.OrdinalIgnoreCase) >= 0)
                             {
-                                resultados.Add(perro);
+                                resultados.Add(perro); // Agrega perros cuyo nombre coincida parcialmente.
                             }
                             break;
                         case "Dueño":
                             if (perro.Dueño.IndexOf(textoBusqueda, StringComparison.OrdinalIgnoreCase) >= 0)
                             {
-                                resultados.Add(perro);
+                                resultados.Add(perro); // Agrega perros cuyo dueño coincida parcialmente.
                             }
                             break;
                     }
@@ -162,23 +158,22 @@ namespace WindowsFormsApp2
             }
             else
             {
-                resultados = perros;
+                resultados = perros; // Si no hay texto, muestra todos los perros.
             }
 
-            ActualizarDataGridView(resultados);
+            ActualizarDataGridView(resultados); // Muestra los resultados en el DataGridView.
         }
 
         private void ActualizarDataGridView(List<Perro> listaPerros)
         {
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = ConvertirAListaVisual(listaPerros);
+            dataGridView1.DataSource = null; // Limpia el DataGridView.
+            dataGridView1.DataSource = Convertir(listaPerros); // Asigna los datos convertidos.
         }
 
-
-        private List<Perro> ConvertirAListaVisual(List<Perro> listaPerros)
+        private List<Perro> Convertir(List<Perro> listaPerros)
         {
-            var listaVisual = new List<Perro>();
-            foreach (var perro in listaPerros)
+            var listaVisual = new List<Perro>(); // Crea una lista temporal.
+            foreach (var perro in listaPerros) // Copia cada perro en la lista temporal.
             {
                 listaVisual.Add(new Perro
                 {
@@ -188,11 +183,12 @@ namespace WindowsFormsApp2
                     Dueño = perro.Dueño,
                     Telefono = perro.Telefono,
                     Nota = perro.Nota,
-                    Fecha_De_Nacimiento = perro.Fecha_De_Nacimiento
+                    Fecha = perro.Fecha
                 });
             }
-            return listaVisual;
+            return listaVisual; // Retorna la lista.
         }
+
 
     }
 }
