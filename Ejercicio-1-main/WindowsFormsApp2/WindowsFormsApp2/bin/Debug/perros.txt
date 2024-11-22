@@ -1,0 +1,5 @@
+1,Zeus,Husky,Carlos,78939935,20/06/2022,Perrito todo bonito
+2,Cookie,Poodle,Juan,56788123,11/04/2023,
+3,Lola,Pitbull,Dani,56781645,19/12/2023,si
+4,Tom,Rottweiler,Emma,45657923,09/01/2022,
+5,Diva,Maltes,Steph,46897823,14/04/2022,
