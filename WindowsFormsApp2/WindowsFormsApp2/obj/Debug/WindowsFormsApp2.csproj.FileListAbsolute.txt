@@ -38,3 +38,5 @@ C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsForm
 C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.PantallaEdicion.resources
+C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ListaVacunas.resources
+C:\Users\Rene Sandoval\Documents\GitHub\Ejercicio-1\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Vacunas.resources

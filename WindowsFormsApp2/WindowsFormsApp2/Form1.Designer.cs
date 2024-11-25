@@ -88,9 +88,9 @@
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(4, 268);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 40);
+            this.button1.Size = new System.Drawing.Size(182, 40);
             this.button1.TabIndex = 42;
-            this.button1.Text = "👨‍⚕️ Lista de Perros";
+            this.button1.Text = "🐶 Lista de Perros";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -102,9 +102,9 @@
             this.button5.ForeColor = System.Drawing.Color.Transparent;
             this.button5.Location = new System.Drawing.Point(4, 206);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(173, 40);
+            this.button5.Size = new System.Drawing.Size(182, 40);
             this.button5.TabIndex = 39;
-            this.button5.Text = "👨‍⚕️ Registrar Perro";
+            this.button5.Text = "🐕 Registrar Perro";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 

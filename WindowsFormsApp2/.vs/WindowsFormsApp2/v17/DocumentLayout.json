@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\rene sandoval\\documents\\github\\ejercicio-1\\windowsformsapp2\\windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\rene sandoval\\documents\\github\\ejercicio-1\\windowsformsapp2\\windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{61679E2F-2068-4A5A-AF4A-A81A931DE35D}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -66,8 +66,7 @@
               "RelativeToolTip": "WindowsFormsApp2\\Listar.Designer.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCwAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T04:35:08.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T04:35:08.133Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "WindowsFormsApp2\\Perro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:50:35.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T02:50:35.26Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "WindowsFormsApp2\\PantallaEdicion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T02:25:06.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T02:25:06.27Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\PantallaEdicion.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\PantallaEdicion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T02:23:03.36Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-18T02:23:03.36Z"
             },
             {
               "$type": "Document",
@@ -117,8 +113,7 @@
               "RelativeToolTip": "WindowsFormsApp2\\Listar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:15:50.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:15:50.185Z"
             },
             {
               "$type": "Document",
@@ -129,8 +124,7 @@
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Listar.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\Listar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:15:43.415Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T23:15:43.415Z"
             },
             {
               "$type": "Document",
@@ -141,8 +135,7 @@
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Paciente.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\Paciente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:16:03.382Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T23:16:03.382Z"
             },
             {
               "$type": "Document",
@@ -154,8 +147,7 @@
               "RelativeToolTip": "WindowsFormsApp2\\Paciente.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:16:05.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T23:16:05.582Z"
             },
             {
               "$type": "Document",
@@ -166,8 +158,7 @@
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Main.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\Main.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:15:59.324Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T23:15:59.324Z"
             },
             {
               "$type": "Document",
@@ -177,7 +168,7 @@
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeToolTip": "WindowsFormsApp2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T23:15:17.286Z",
               "EditorCaption": ""
@@ -191,8 +182,7 @@
               "ToolTip": "C:\\Users\\Rene Sandoval\\Documents\\GitHub\\Ejercicio-1\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T23:05:56.318Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T23:05:56.318Z"
             }
           ]
         }

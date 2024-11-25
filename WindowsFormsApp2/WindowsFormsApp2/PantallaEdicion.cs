@@ -8,6 +8,7 @@ namespace WindowsFormsApp2
 {
     public partial class PantallaEdicion : UserControl
     {
+        private Panel panel7;
         private List<Perro> CargarPerrosDesdeArchivo()
         {
             List<Perro> perros = new List<Perro>();
@@ -39,9 +40,10 @@ namespace WindowsFormsApp2
             return perros;
         }
 
-        public PantallaEdicion()
+        public PantallaEdicion(Panel panel)
         {
             InitializeComponent();
+            this.panel7 = panel;
         }
 
         public void CargarDatos(WindowsFormsApp2.Listar.Perro perroListar)
@@ -158,6 +160,18 @@ namespace WindowsFormsApp2
             {
                 // Muestra un mensaje de error si ocurre algún problema al guardar el archivo.
                 MessageBox.Show($"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Vacunas pantallaControles = new Vacunas();
+
+            if (!panel7.Controls.Contains(pantallaControles))
+            {
+                panel7.Controls.Add(pantallaControles);
+                pantallaControles.Dock = DockStyle.Fill;
+                pantallaControles.BringToFront();
             }
         }
     }

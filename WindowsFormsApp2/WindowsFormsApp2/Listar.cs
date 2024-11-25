@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
             {
                 var perroSeleccionado = perros[e.RowIndex];
 
-                PantallaEdicion pantallaControl = new PantallaEdicion();
+                PantallaEdicion pantallaControl = new PantallaEdicion(panel7);
 
                 if (!panel7.Controls.Contains(pantallaControl))
                 {

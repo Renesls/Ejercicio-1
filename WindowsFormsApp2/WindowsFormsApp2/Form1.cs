@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             Listar listarControl = new Listar(panel7);
-
+            PantallaEdicion listarControles = new PantallaEdicion(panel7);
 
         }
 
@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
         {
             panel4.Location = new Point(203, 330);
 
-            PantallaEdicion PantallaControl = new PantallaEdicion();
+            PantallaEdicion PantallaControl = new PantallaEdicion(panel7);
             if (panel7.Contains(PantallaControl) == false)
             {
                 panel7.Controls.Add(PantallaControl);
@@ -144,6 +144,13 @@ namespace WindowsFormsApp2
             button5.Font = new Font(button5.Font, button5.Font.Style & ~FontStyle.Underline);
             button3.Font = new Font(button3.Font, button3.Font.Style & ~FontStyle.Underline);
             button4.Font = new Font(button4.Font, button4.Font.Style & ~FontStyle.Underline);
+            ListaVacunas PantallaControl = new ListaVacunas();
+            if (panel7.Contains(PantallaControl) == false)
+            {
+                panel7.Controls.Add(PantallaControl);
+                PantallaControl.Dock = DockStyle.Fill;
+                PantallaControl.BringToFront();
+            }
         }
     }
 
